@@ -1,8 +1,8 @@
 import * as React from 'react';
-import { MyTemplate } from './email';
+import Email from './emails/my-email';
 import { render } from '@react-email/render';
 
-const html = await render(<MyTemplate />, {
+const html = await render(<Email />, {
   pretty: true,
 });
 

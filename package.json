@@ -4,20 +4,23 @@
   "description": "",
   "license": "ISC",
   "author": "",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "email dev"
+    "dev": "email dev",
+    "build": "tsc"
   },
   "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
     "react-email": "4.0.6",
     "typescript": "^5.8.3"
   },
   "dependencies": {
     "@react-email/components": "0.0.36",
     "@react-email/render": "1.0.6",
-    "react": "19.1.0",
-    "react-dom": "19.1.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
